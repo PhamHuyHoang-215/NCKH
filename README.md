@@ -1,35 +1,38 @@
+# Sơ đồ 1 – Bản chất & Phân loại NCKH
+
+```mermaid
 mindmap
-  root(("1. Bản chất & Phân loại Nghiên cứu khoa học (CLO1)"))
-    "1.1. Bản chất NCKH"
-      "Khái niệm: NCKH là tìm kiếm những điều khoa học chưa biết"
-      "Phát hiện bản chất sự vật, phát triển nhận thức về thế giới"
-      "Sáng tạo phương pháp, phương tiện kỹ thuật mới để biến đổi sự vật phục vụ con người"
-    "Đặc điểm chính"
-      "Tính mới: không lặp lại phát hiện / sáng tạo cũ"
-      "Tính tin cậy: kết quả phải kiểm chứng lại nhiều lần trong cùng điều kiện"
-      "Tính thông tin: sản phẩm NCKH là thông tin về quy luật, quá trình, công nghệ..."
-      "Tính khách quan: kết luận dựa trên luận cứ khoa học, tránh cảm tính"
-      "Tính rủi ro: có thể thất bại, nhưng thất bại cũng là kết quả khoa học"
-      "Tính kế thừa: kế thừa kết quả, phương pháp của đồng nghiệp"
-      "Tính cá nhân: vai trò tư duy, sáng tạo của từng nhà khoa học rất quan trọng"
-    "1.2. Phân loại NCKH"
-      "Theo chức năng nghiên cứu"
-        "Nghiên cứu mô tả: nhận dạng sự vật (hình thái, động thái, tương tác; định tính, định lượng)"
-        "Nghiên cứu giải thích: làm rõ nguyên nhân và quy luật chi phối sự vật"
-        "Nghiên cứu giải pháp: sáng tạo giải pháp (công nghệ, tổ chức, quản lý...)"
-        "Nghiên cứu dự báo: nhận dạng trạng thái tương lai của sự vật (chấp nhận sai lệch)"
-      "Theo giai đoạn nghiên cứu"
-        "Nghiên cứu cơ bản"
-          "Phát hiện thuộc tính, cấu trúc, động thái, tương tác → lý thuyết mới"
-          "Cơ bản thuần tuý: nâng cao nhận thức, chưa tính ứng dụng"
-          "Cơ bản định hướng: gồm nền tảng và chuyên đề"
-          "Nền tảng: quy luật tổng thể hệ thống"
-          "Chuyên đề: hiện tượng đặc biệt, vừa lý thuyết vừa ứng dụng"
-        "Nghiên cứu ứng dụng"
-          "Vận dụng quy luật từ nghiên cứu cơ bản"
-          "Giải thích sự vật và đề xuất nguyên lý, giải pháp áp dụng vào thực tiễn"
-        "Triển khai"
-          "Đưa kết quả ứng dụng thành công nghệ khả thi"
-          "Tạo vật mẫu (prototype)"
-          "Tạo công nghệ / làm pilot"
-          "Sản xuất thử loạt nhỏ (Série 0)"
+  ROOT_CLO1(("1. Bản chất & Phân loại Nghiên cứu khoa học (CLO1)"))
+    BC_BAN_CHAT["1.1. Bản chất NCKH"]
+      BC_KN1["Khái niệm: NCKH là tìm kiếm những điều khoa học chưa biết"]
+      BC_KN2["Phát hiện bản chất sự vật, phát triển nhận thức về thế giới"]
+      BC_KN3["Sáng tạo phương pháp, phương tiện kỹ thuật mới để biến đổi sự vật phục vụ con người"]
+    BC_DAC_DIEM["Đặc điểm của NCKH"]
+      BC_DD_MOI["Tính mới: không lặp lại phát hiện / sáng tạo cũ"]
+      BC_DD_TINCAY["Tính tin cậy: kết quả phải kiểm chứng lại nhiều lần trong cùng điều kiện"]
+      BC_DD_TT["Tính thông tin: sản phẩm NCKH là thông tin về quy luật, quá trình, công nghệ..."]
+      BC_DD_KQ["Tính khách quan: kết luận dựa trên luận cứ khoa học, tránh cảm tính"]
+      BC_DD_RUIRO["Tính rủi ro: có thể thất bại, nhưng thất bại cũng là kết quả khoa học"]
+      BC_DD_KE_THUA["Tính kế thừa: kế thừa kết quả, phương pháp của đồng nghiệp"]
+      BC_DD_CANHAN["Tính cá nhân: vai trò tư duy, sáng tạo của từng nhà khoa học rất quan trọng"]
+    BC_PHANLOAI["1.2. Phân loại NCKH"]
+      BC_PL_CHUCNANG["Theo chức năng nghiên cứu"]
+        BC_MOTA["Nghiên cứu mô tả: nhận dạng sự vật (hình thái, động thái, tương tác; định tính, định lượng)"]
+        BC_GIAITHICH["Nghiên cứu giải thích: làm rõ nguyên nhân và quy luật chi phối sự vật"]
+        BC_GIAIPHAP["Nghiên cứu giải pháp: sáng tạo giải pháp (công nghệ, tổ chức, quản lý...)"]
+        BC_DUBAO["Nghiên cứu dự báo: nhận dạng trạng thái tương lai của sự vật (chấp nhận sai lệch)"]
+      BC_PL_GIAIDOAN["Theo giai đoạn nghiên cứu"]
+        BC_CB["Nghiên cứu cơ bản"]
+          BC_CB_MT["Mục tiêu: phát hiện thuộc tính, cấu trúc, động thái, tương tác → lý thuyết mới"]
+          BC_CB_THUANTUY["Cơ bản thuần tuý: chỉ nhằm nâng cao nhận thức, chưa tính ứng dụng"]
+          BC_CB_DINHHUONG["Cơ bản định hướng: gồm nền tảng và chuyên đề"]
+          BC_CB_NENTANG["Nền tảng: nghiên cứu quy luật tổng thể của hệ thống"]
+          BC_CB_CHUYENDE["Chuyên đề: hiện tượng đặc biệt, vừa lý thuyết vừa ứng dụng"]
+        BC_UD["Nghiên cứu ứng dụng"]
+          BC_UD1["Vận dụng quy luật từ nghiên cứu cơ bản để giải thích sự vật cụ thể"]
+          BC_UD2["Đề xuất nguyên lý, giải pháp áp dụng vào thực tiễn"]
+        BC_TRIENKHAI["Nghiên cứu triển khai"]
+          BC_TK_MT["Đưa kết quả ứng dụng thành công nghệ khả thi"]
+          BC_TK_VM["Tạo vật mẫu (prototype)"]
+          BC_TK_CN["Tạo công nghệ / làm mô hình pilot"]
+          BC_TK_SERIE0["Sản xuất thử loạt nhỏ (Série 0)"]
