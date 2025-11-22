@@ -1,6 +1,7 @@
 # Sơ đồ 1 – Bản chất & Phân loại NCKH
 
 ```mermaid
+%%{init: {'theme':'neutral'}}%%
 mindmap
   ROOT_CLO1(("1. Bản chất & Phân loại Nghiên cứu khoa học (CLO1)"))
     BC_BAN_CHAT["1.1. Bản chất NCKH"]
